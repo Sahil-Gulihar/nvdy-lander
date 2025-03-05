@@ -6102,7 +6102,7 @@
     }
   
     .padding-section_home-hero {
-      padding-top: 25rem;
+      padding-top: 15rem;
     }
   
     .home_hero_content_1_text {
@@ -7865,7 +7865,7 @@
   
   @font-face {
     font-family: "Gt america";
-    src: url("./fonts/gt-america.woff2") format("woff2");
+    src: url("/fonts/gt-america.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -7873,7 +7873,7 @@
   
   @font-face {
     font-family: "Gt america extended";
-    src: url("./fonts/gt-america-extended.woff2") format("woff2");
+    src: url("/fonts/gt-america-extended.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -7881,7 +7881,7 @@
   
   @font-face {
     font-family: "Gtultrafine";
-    src: url("./fonts/Gtultrafine.woff2") format("woff2");
+    src: url("/fonts/Gtultrafine.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -7889,7 +7889,7 @@
   
   @font-face {
     font-family: "Chakrapetch";
-    src: url("./fonts/Chakrapetch.woff2") format("woff2");
+    src: url("/fonts/Chakrapetch.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -7897,7 +7897,7 @@
   
   @font-face {
     font-family: "Stencil";
-    src: url("./fonts/stencil.woff2") format("woff2");
+    src: url("/fonts/stencil.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -7908,8 +7908,14 @@
     text-align: center;
     margin:  auto;
 }
+.logo_navdyut{
+  width: 240px;
+}
 @media screen and (max-width: 767px) {
     .custom-width-for-title{
         width: 100%;
+    }
+    .logo_navdyut{
+        width: 180px;
     }
 }

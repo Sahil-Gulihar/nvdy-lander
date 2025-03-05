@@ -11,7 +11,7 @@ function NavComponent() {
           <img
             src="https://images-ext-1.discordapp.net/external/DSMRTuG5qctfc2L-JdzetkTPPqJanwe83v2QtasDQqc/https/i.imgur.com/pgWuALs.png?format=webp&quality=lossless&width=1600&height=384"
             alt="logo"
-            width={240}
+          className="logo_navdyut"
           />
         </h1>
         <div className="nav_bar_right">
